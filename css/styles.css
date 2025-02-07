@@ -10,10 +10,10 @@ ol {
 button {
   cursor: pointer;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #FFFFFF;
 }
 
 .logo-header {
@@ -73,7 +73,7 @@ color: #404bbf;
 }
 
 
-.title-hero {
+.title {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -82,7 +82,7 @@ color: #404bbf;
   color: #fff;
   background: #2e2f42;
 }
-.hero-btn {
+.btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -91,16 +91,17 @@ color: #404bbf;
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn:focus,
-.hero-btn:hover {
-  background: #4d5ae5;
+.btn:focus,
+.btn:hover {
+  background:#404BBF;
 }
 .subject-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .service-text {
   font-weight: 400;
