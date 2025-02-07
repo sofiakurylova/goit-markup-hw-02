@@ -48,16 +48,17 @@ body {
 
 .item-nav-link:hover,
 .item-nav-link:focus {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
-.link-header:focus,
+.adres-link-header:focus,
 .link-header:hover {
   color: #404bbf;
 }
 
 .adres-header {
   font-style: normal;
+  background: #fff;;
 }
 
 .contact-link {
