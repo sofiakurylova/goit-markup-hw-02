@@ -25,9 +25,9 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-dark {
+.logo-text{
   color: #2e2f42;
-}
+  }
 
 .item-nav-link {
   font-weight: 500;
@@ -67,30 +67,28 @@ color: #404bbf;
 }
 
 
-.hero {
-  background-color: #2e2f42;
-}
-
-.hero-title {
+.h-one-title {
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+  line-height: 107%;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  text-align: center;
+  color: #fff;
+  background-color:#2e2f42 ;
 }
-
-.hero-button {
-  background-color: #4D5AE5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
+.button-link {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+line-height: 1.5;
+width: 169px;
+height: 56px;
+background-color: #404BBF;
+text-decoration: none;
+cursor: pointer;
+color: #ffff;
 }
-
-.hero-button:focus,
-.hero-button:hover {
+.button-link:focus,
+.button-link:hover {
   background-color: #404BBF;
 }
 .title-text {
@@ -104,7 +102,7 @@ color: #2e2f42;
 }
 .subject-item{
   font-family: "Roboto", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 font-weight: 500;
 font-size: 20px;
 line-height: 120%;
