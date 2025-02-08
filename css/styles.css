@@ -81,17 +81,17 @@ color: #404bbf;
   background: #2e2f42;
 }
 .btn-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+background: #4d5ae5;
+text-decoration: none;
+cursor: pointer;
 }
 .btn:focus,
 .btn:hover {
-  background:#404BBF;
+  background: #404bbf;
 }
 .subject-title {
   font-family: "Roboto", sans-serif;
@@ -161,17 +161,28 @@ color: #2e2f42;
   background: #2e2f42;
 }
 .logo-futer{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+  color: #4d5ae5;
+} 
+.logo-futer-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-futer-span{
   color: #f4f4fd;
 }
+.logo-futer-span:focus,
+.logo-futer-span:hover
+{
+  color: #f4f4fd;
+}
+ 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
