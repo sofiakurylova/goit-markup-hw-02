@@ -25,9 +25,9 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-text{
+.logo-dark {
   color: #2e2f42;
-  }
+}
 
 .item-nav-link {
   font-weight: 500;
@@ -67,28 +67,30 @@ color: #404bbf;
 }
 
 
-.h-one-title {
-  font-weight: 700;
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
   font-size: 56px;
-  line-height: 107%;
-  letter-spacing: 0.02em;
+  line-height: 1.07;
   text-align: center;
-  color: #fff;
-  background-color:#2e2f42 ;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
-.button-link {
-  font-family: "Roboto", sans-serif;
-font-weight: 500;
-line-height: 1.5;
-width: 169px;
-height: 56px;
-background-color: #404BBF;
-text-decoration: none;
-cursor: pointer;
-color: #ffff;
+
+.hero-button {
+  background-color: #4D5AE5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
-.button-link:focus,
-.button-link:hover {
+
+.hero-button:focus,
+.hero-button:hover {
   background-color: #404BBF;
 }
 .title-text {
