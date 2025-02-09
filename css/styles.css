@@ -18,15 +18,21 @@ body {
 
 .logo-header{
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
 }
 .logo-text{
-  color:#404bbf;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
   }
 
 .item-nav-link {
@@ -40,18 +46,24 @@ body {
 
 .item-nav-link:focus,
 .item-nav-link:hover {
-  color: #404bbf;
+  color:#404bbf ;
 }
 
+.items-link{
+  font-style: normal;
+  background: #fff;
+
+}
 
 .adres-link-header:focus,
 .link-header:hover {
   color: #404bbf;
+
 }
 
 .adres-header {
   font-style: normal;
-  background: #fff;;
+  background: #fff;
 }
 
 .contact-link {
@@ -82,14 +94,14 @@ font-weight: 500;
 line-height: 1.5;
 width: 169px;
 height: 56px;
-background-color: #404BBF;
+background: #4d5ae5; 
 text-decoration: none;
 cursor: pointer;
 color: #ffff;
 }
 .button-link:focus,
 .button-link:hover {
-  background-color: #404BBF;
+  background: #404bbf;
 }
 .title-text {
 text-transform: capitalize;
