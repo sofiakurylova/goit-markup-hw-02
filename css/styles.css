@@ -76,7 +76,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
@@ -87,6 +87,7 @@ body {
   line-height: 1.5;
   width: 169px;
   height: 56px;
+  letter-spacing: 0.04em;
   background: #4d5ae5;
   text-decoration: none;
   text-align: center;
